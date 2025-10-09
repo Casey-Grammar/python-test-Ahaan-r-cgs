@@ -33,8 +33,9 @@ def main():
     x="Task6a"
     #===============================
     # Write your code here
-    
-
+    var1 =  input('Say: ')
+    var = var1.split()
+    print(var)
     # End of your code here
     #===============================
 

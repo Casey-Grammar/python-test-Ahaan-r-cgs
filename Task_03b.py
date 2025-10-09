@@ -15,7 +15,13 @@ def main():
     x="Task3b"
     #===============================
     # Write your code here
-    
+    var1 = int(input('Remaining charge: '))
+    if var1 <= 5:
+        print('Connect your charger!')
+    elif var1 < 50:
+        print('You should charge your phone soon!')
+    else:
+        print('All good.')
 
     # End of your code here
     #===============================

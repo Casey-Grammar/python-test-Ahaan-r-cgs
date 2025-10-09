@@ -33,7 +33,9 @@ def main():
     x="Task4a"
     #===============================
     # Write your code here
-    
+    var1 = int(input('How old are you? '))
+    var  = 100 - var1
+    print(f'Years until your letter...\n{var}')
 
     # End of your code here
     #===============================

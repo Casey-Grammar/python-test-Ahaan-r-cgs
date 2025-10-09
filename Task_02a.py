@@ -29,7 +29,11 @@ def main():
   x="Task2a"
   #===============================
   # Write your code here
-    
+  var1 =  input('Text: ')
+  if var1 == "Marco!":
+     print('Polo!')
+  else:
+     print('')
 
   # End of your code here
   #===============================

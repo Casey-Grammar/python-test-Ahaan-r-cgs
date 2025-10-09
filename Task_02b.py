@@ -22,7 +22,12 @@ def main():
     x="Task2b"
     #===============================
     # Write your code here
-    
+    var1 =  input('Text: ')
+    Var = var1.lower()
+    if Var == "marco!":
+        print('Polo!')
+    else:
+        print('')
 
     # End of your code here
     #===============================

@@ -36,7 +36,10 @@ def main():
     x="Task5"
     #===============================
     # Write your code here
-    
+    var = int(input('How many sheep: '))
+    var1 =  var + 1
+    for n in range(1, var1, 1):
+        print(f'{n} sheep')
 
     # End of your code here
     #===============================
