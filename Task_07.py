@@ -26,13 +26,13 @@ tests above produce the given outputs.
 #===============================
 # All code to debug is below here
 #==============================
-name = input('What is your name? ')
+
 def hello(name):
     greeting = f'Hello, {name}!'
     return greeting
 
 def main():
-  
+  name = input('What is your name? ')
   if len(name) <= 3:
     print ('Your name is too short')
   else:
